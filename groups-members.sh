@@ -9,7 +9,7 @@ PROJECT="project"
 
 PROJECT_ENC="$(echo -n ${PROJECT} | jq -sRr @uri)"
 
-USER_ID=6608574
+USER_ID=1
 
 group_members(){
     enc="$(echo -n ${1} | jq -sRr @uri)"
